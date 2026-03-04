@@ -30,7 +30,7 @@ export default function AboutPage() {
         </div>
       </motion.section>
 
-      {/* About Our Expertise Section - No border/line at bottom */}
+      {/* Founder Section - Payright-style layout */}
       <motion.section
         className="w-full py-8 md:py-16 lg:py-20 bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900 dark:to-blue-900"
         initial={{ opacity: 0 }}
@@ -41,37 +41,21 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <motion.div
-              className="space-y-4"
+              className="flex flex-col items-center text-center lg:items-center"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <div className="inline-block rounded-lg bg-teal-100 px-3 py-1 text-sm text-teal-800 dark:bg-teal-800 dark:text-teal-100">
-                Our Expertise
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Extensive Experience in Major Project Management
-              </h2>
-              <div className="rounded-xl overflow-hidden shadow-lg mb-6">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg mb-6 border-4 border-white dark:border-gray-700">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Capture.PNG-ryc3crfCtmH2W0RU7sEKRRbH6p8pPS.png"
-                  alt="Professional with qualifications"
-                  className="w-full h-auto object-cover"
+                  src="/kate-gibbs-headshot.jpg"
+                  alt="Kate Gibbs - Founder & Managing Director"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
-                Our founder brings over 15 years of experience in managing complex infrastructure and construction
-                projects across aviation, government, and private sectors.
-              </p>
-              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
-                With a background in major terminal refurbishments, runway projects, and building remediation, we apply
-                the same rigorous project management methodologies to your strata needs.
-              </p>
-              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
-                This wealth of experience ensures your strata committee receives professional guidance that combines
-                technical expertise with practical know-how.
-              </p>
+              <h2 className="text-2xl md:text-3xl font-bold tracking-tighter">Kate Gibbs</h2>
+              <p className="text-teal-600 dark:text-teal-400 font-medium text-lg mt-1">Founder & Managing Director</p>
             </motion.div>
             <motion.div
               className="flex flex-col space-y-6"
@@ -80,6 +64,18 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
+              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
+                Kate brings over 15 years of experience in managing complex infrastructure and construction
+                projects across aviation, government, and private sectors.
+              </p>
+              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
+                With a background in major terminal refurbishments, runway projects, and building remediation, she applies
+                the same rigorous project management methodologies to your strata needs.
+              </p>
+              <p className="text-gray-700 md:text-xl/relaxed dark:text-gray-300">
+                This wealth of experience ensures your strata committee receives professional guidance that combines
+                technical expertise with practical know-how.
+              </p>
               <div className="rounded-xl border bg-white p-6 shadow-sm dark:bg-gray-800">
                 <h3 className="text-xl font-bold mb-4">How This Benefits You</h3>
                 <ul className="space-y-3">
@@ -104,13 +100,6 @@ export default function AboutPage() {
                     <span>Proven track record of delivering projects on time and on budget</span>
                   </li>
                 </ul>
-              </div>
-              <div className="rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CS-0538_More-PRST-Article-Images_SelectingACOnstructionStaffingAgency_InPostImage_1000x460-1000x460-qNOIjP070AClSNAIi0u0k2DWnanFB5.png"
-                  alt="Construction managers reviewing plans"
-                  className="w-full h-[250px] object-cover"
-                />
               </div>
             </motion.div>
           </div>

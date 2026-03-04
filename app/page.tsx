@@ -46,7 +46,7 @@ export default function HomePage() {
                 </Button>
               </Link>
               <Link href="/services">
-                <Button size="lg" variant="outline" className="px-8 border-white text-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="px-8 border-white text-black bg-white hover:bg-gray-100">
                   Our Services
                 </Button>
               </Link>
@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Services</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-teal-700 dark:text-teal-400">Our Services</h2>
               <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed dark:text-gray-300">
                 Comprehensive project management solutions tailored specifically for strata committees
               </p>
@@ -160,7 +160,7 @@ export default function HomePage() {
 
       {/* Why Choose Us Section */}
       <motion.section
-        className="w-full py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-900"
+        className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900 dark:to-blue-900"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -261,7 +261,7 @@ export default function HomePage() {
                 </Button>
               </Link>
               <Link href="/projects">
-                <Button size="lg" variant="outline" className="px-8 border-white text-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="px-8 border-white text-black bg-white hover:bg-gray-100">
                   View Our Projects
                 </Button>
               </Link>

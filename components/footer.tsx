@@ -91,19 +91,19 @@ export function Footer() {
             <div className="flex flex-col gap-3 text-sm text-gray-600 dark:text-gray-400">
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-teal-600" />
-                <span>Sydney NSW, Australia</span>
+                <span>PO Box 1352, Manly NSW 1655</span>
               </div>
               <div className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 shrink-0 text-teal-600" />
-                <span>(02) 1234 5678</span>
+                <span>0410 635 865</span>
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 shrink-0 text-teal-600" />
                 <a
-                  href="mailto:info@stratapm.com.au"
+                  href="mailto:info@thestratapm.com.au"
                   className="hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
                 >
-                  info@stratapm.com.au
+                  info@thestratapm.com.au
                 </a>
               </div>
             </div>

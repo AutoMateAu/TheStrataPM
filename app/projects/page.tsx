@@ -4,7 +4,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function ProjectsPage() {
   return (
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
       >
         <div className="container px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {/* Project 1 */}
+            {/* Project 1 - Fire Safety Compliance */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -51,33 +51,27 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fire-rating-Remedial-Building-Services-scaled.jpg-KY6XagxDI4KErYSKCoz47kBGt4eg8A.jpeg"
-                    alt="Waterproofing project"
+                    alt="Fire safety compliance project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Waterproofing Remediation</CardTitle>
-                  <CardDescription>North Sydney Apartment Complex</CardDescription>
+                  <CardTitle>Fire Safety Compliance</CardTitle>
+                  <CardDescription>Major Transport Hub, $20M Project Value</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Comprehensive waterproofing remediation for a 12-storey apartment building experiencing significant
-                    water ingress issues. Our team coordinated multiple trades to identify and resolve complex
-                    structural problems.
+                    Project Managed the fire system upgrade for a major transport hub building. Work completed within budget
+                    and program without impacting operations. Required high-level stakeholder engagement and contractor
+                    negotiations. Successfully challenged scope of work and specification in line with fire compliance
+                    requirements, reducing overall project scope and saving the client $1M. Met Heritage Consultants
+                    requirements leading to specialist project completion report issued.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
 
-            {/* Project 2 */}
+            {/* Project 2 - Building Facade Remediation */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -88,33 +82,25 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Free-Software-for-Construction-Project-Management.jpg-vxSa59BpoxZBzo2acE52soPTVStKds.jpeg"
-                    alt="Facade restoration project"
+                    alt="Building facade remediation project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Façade Restoration</CardTitle>
-                  <CardDescription>Heritage Building, Sydney CBD</CardDescription>
+                  <CardTitle>Building Facade Remediation</CardTitle>
+                  <CardDescription>Multi-Storey High Rise, Northern Beaches</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Restoration of a heritage-listed building façade requiring specialised trades and materials. Our
-                    project management ensured compliance with heritage requirements while delivering on time and within
-                    budget.
+                    Structural and aesthetic remediation of a multi-storey high rise including painting colour change,
+                    bespoke external shutter replacement, and negotiating budget and delivery program with Strata and
+                    Contractors.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
 
-            {/* Project 3 */}
+            {/* Project 3 - Retaining Wall Remediation */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -125,33 +111,24 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/construction-project-management-guide-1024x576.jpg-hk2uyWFugkc5ghleIvCmdpvhF7bjRM.jpeg"
-                    alt="Structural repair project"
+                    alt="Retaining wall remediation project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Structural Repairs</CardTitle>
-                  <CardDescription>Commercial Building, Parramatta</CardDescription>
+                  <CardTitle>Retaining Wall Remediation</CardTitle>
+                  <CardDescription>Multi-Storey High Rise, Northern Beaches</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Major structural repair project for a commercial property requiring careful planning and execution.
-                    We managed the entire process from initial assessment through to completion, minimising disruption
-                    to tenants.
+                    Design changes to enhance strength and reduce or eliminate risk of the same failure occurring in the
+                    future. Project Management included stakeholder management, strata budget and scope approval.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
 
-            {/* Project 4 */}
+            {/* Project 4 - Internal Lift Replacement */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -162,33 +139,25 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/HERO%20-%20Construction%20Project%20Management%20Software%20vs%20Construction%20Operations-dx8fW9POVz8GhL4qSkV7cGhnfNdlYV.webp"
-                    alt="Building compliance upgrade"
+                    alt="Lift replacement project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Fire Safety Compliance</CardTitle>
-                  <CardDescription>Residential Tower, Eastern Suburbs</CardDescription>
+                  <CardTitle>Internal Lift Replacement</CardTitle>
+                  <CardDescription>Commercial Buildings, Mascot - $300K to $1.2M</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Comprehensive fire safety compliance upgrade for a 20-storey residential tower. Our team coordinated
-                    with fire engineers, council representatives, and multiple trades to ensure full compliance with
-                    current regulations.
+                    Lift replacement for multiple commercial buildings. Project management included working with clients
+                    through the design phase to ensure scope completeness and avoid variations, design review and shop
+                    drawing review and sign-off, stakeholder engagement and contractor management.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
 
-            {/* Project 5 */}
+            {/* Project 5 - Common Area Refurbishment */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -199,33 +168,24 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CS-0538_More-PRST-Article-Images_SelectingACOnstructionStaffingAgency_InPostImage_1000x460-1000x460-qNOIjP070AClSNAIi0u0k2DWnanFB5.png"
-                    alt="Building upgrade project"
+                    alt="Common area refurbishment project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
                   <CardTitle>Common Area Refurbishment</CardTitle>
-                  <CardDescription>Luxury Apartments, North Shore</CardDescription>
+                  <CardDescription>Private & Commercial Properties - $100K to $50M</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Complete refurbishment of common areas in a premium apartment complex. Our project management
-                    ensured minimal disruption to residents while delivering a high-quality finish that enhanced
-                    property values.
+                    Project Managed common area refurbishment works for both private and commercial properties from design,
+                    through tendering of work, construction and through to completion.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
 
-            {/* Project 6 */}
+            {/* Project 6 - Complex Investigation & Remediation */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -236,29 +196,23 @@ export default function ProjectsPage() {
                 <div className="h-48 overflow-hidden">
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screen-Shot-2024-10-09-at-3.43.25-pm-c92UdGfZNpMihFZQtKJfZwNmF3QB5x.png"
-                    alt="Balcony remediation project"
+                    alt="Complex investigation and remediation project"
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Balcony Waterproofing</CardTitle>
-                  <CardDescription>Beachside Apartments, Northern Beaches</CardDescription>
+                  <CardTitle>Complex Investigation & Remediation</CardTitle>
+                  <CardDescription>Multi-Storey High Rise, Northern Beaches</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Comprehensive balcony waterproofing and tiling project for a beachside apartment complex. Our team
-                    managed the complex logistics of working on multiple balconies while ensuring minimal disruption to
-                    residents.
+                    Resolved a high-risk situation on a multi-storey high rise that included destructive investigation,
+                    structural engineering, and multiple trades. Project Management included developing the scope in
+                    consultation with the Strata Committee, stakeholder engagement for access, managing budget and trades
+                    throughout, ensuring only budgeted and approved work was undertaken and providing transparency to
+                    Committee and Contractors through to completion.
                   </p>
                 </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900"
-                  >
-                    View Details
-                  </Button>
-                </CardFooter>
               </Card>
             </motion.div>
           </div>

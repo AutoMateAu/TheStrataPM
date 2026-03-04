@@ -126,84 +126,28 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Address</p>
                       <p className="text-gray-600 dark:text-gray-300">
-                        123 Strata Street
+                        PO Box 1352
                         <br />
-                        Sydney NSW 2000
-                        <br />
-                        Australia
+                        Manly NSW 1655
                       </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-2">
                     <Phone className="h-5 w-5 text-teal-600 shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-medium">Phone</p>
-                      <p className="text-gray-600 dark:text-gray-300">(02) 1234 5678</p>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">Mobile: 0400 123 456</p>
+                      <p className="font-medium">Mobile</p>
+                      <p className="text-gray-600 dark:text-gray-300">0410 635 865</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-2">
                     <Mail className="h-5 w-5 text-teal-600 shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-gray-600 dark:text-gray-300">info@stratafix.com.au</p>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
-                        For quotes: quotes@stratafix.com.au
-                      </p>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
-                        For support: support@stratafix.com.au
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-2 mt-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="text-teal-600 shrink-0 mt-0.5"
-                    >
-                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                      <rect width="4" height="12" x="2" y="9"></rect>
-                      <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                    <div>
-                      <p className="font-medium">LinkedIn</p>
                       <a
-                        href="https://linkedin.com/company/stratafix"
+                        href="mailto:info@thestratapm.com.au"
                         className="text-teal-600 hover:underline dark:text-teal-400"
                       >
-                        linkedin.com/company/stratafix
-                      </a>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="text-teal-600 shrink-0 mt-0.5"
-                    >
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>
-                    <div>
-                      <p className="font-medium">Facebook</p>
-                      <a
-                        href="https://facebook.com/stratafix"
-                        className="text-teal-600 hover:underline dark:text-teal-400"
-                      >
-                        facebook.com/stratafix
+                        info@thestratapm.com.au
                       </a>
                     </div>
                   </div>
@@ -250,12 +194,21 @@ export default function ContactPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Location</h2>
               <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-300">
-                Conveniently located in Sydney's CBD
+                Servicing Sydney&apos;s Northern Beaches and beyond
               </p>
             </div>
           </div>
-          <div className="rounded-lg overflow-hidden border shadow-lg h-[400px] w-full bg-white dark:bg-gray-800 flex items-center justify-center">
-            <p className="text-gray-600 dark:text-gray-300">Map would be displayed here</p>
+          <div className="rounded-lg overflow-hidden border shadow-lg h-[400px] w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26543.48378399498!2d151.2696!3d-33.7969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a9c94e3db8f1%3A0x5017d681632b870!2sManly%20NSW%201655!5e0!3m2!1sen!2sau!4v1700000000000"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="The Strata PM location - Manly, NSW"
+            />
           </div>
         </div>
       </section>

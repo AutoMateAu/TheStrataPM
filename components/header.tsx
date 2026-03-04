@@ -27,31 +27,31 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-3 lg:gap-6">
           <Link
             href="/"
-            className="text-sm font-medium hover:text-teal-600 transition-colors"
+            className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="text-sm font-medium hover:text-teal-600 transition-colors"
+            className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
           >
             About
           </Link>
           <Link
             href="/services"
-            className="text-sm font-medium hover:text-teal-600 transition-colors"
+            className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
           >
             Services
           </Link>
           <Link
             href="/projects"
-            className="text-sm font-medium hover:text-teal-600 transition-colors"
+            className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
           >
             Projects
           </Link>
           <Link
             href="/contact"
-            className="text-sm font-medium hover:text-teal-600 transition-colors"
+            className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
           >
             Contact
           </Link>
@@ -62,8 +62,9 @@ export function Header() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden p-2"
+          className="md:hidden p-2 text-gray-900 dark:text-white"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
         >
           {mobileMenuOpen ? (
             <X className="h-6 w-6" />
@@ -79,35 +80,35 @@ export function Header() {
           <nav className="flex flex-col gap-4 p-4">
             <Link
               href="/"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               About
             </Link>
             <Link
               href="/services"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Services
             </Link>
             <Link
               href="/projects"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Projects
             </Link>
             <Link
               href="/contact"
-              className="text-sm font-medium hover:text-teal-600 transition-colors"
+              className="text-sm font-medium text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact

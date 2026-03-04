@@ -59,7 +59,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <Card id="project-management" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="project-management" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+                    alt="Construction project management"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <ClipboardCheck className="h-6 w-6 text-teal-600 dark:text-teal-300" />
@@ -117,7 +124,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <Card id="trade-coordination" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="trade-coordination" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
+                    alt="Trade coordination on construction site"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <HardHat className="h-6 w-6 text-teal-600 dark:text-teal-300" />
@@ -174,7 +188,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <Card id="tender-management" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="tender-management" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+                    alt="Tender documents and contracts"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <FileText className="h-6 w-6 text-teal-600 dark:text-teal-300" />
@@ -231,7 +252,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              <Card id="procurement" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="procurement" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80"
+                    alt="Financial management and procurement"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <LineChart className="h-6 w-6 text-teal-600 dark:text-teal-300" />
@@ -288,7 +316,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: true }}
             >
-              <Card id="safety-quality" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="safety-quality" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"
+                    alt="Safety and quality inspection"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <Shield className="h-6 w-6 text-teal-600 dark:text-teal-300" />
@@ -345,7 +380,14 @@ export default function ServicesPage() {
               transition={{ duration: 0.5, delay: 0.6 }}
               viewport={{ once: true }}
             >
-              <Card id="regulatory-compliance" className="flex flex-col h-full bg-white dark:bg-gray-800">
+              <Card id="regulatory-compliance" className="flex flex-col h-full bg-white dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
+                    alt="Building regulatory compliance"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <CardHeader>
                   <div className="p-3 w-fit rounded-full bg-teal-100 dark:bg-teal-700 mb-2">
                     <Building2 className="h-6 w-6 text-teal-600 dark:text-teal-300" />
