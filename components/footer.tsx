@@ -19,7 +19,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Specialized project management expertise for strata committees
+              Specialised project management expertise for strata committees
             </p>
           </div>
 

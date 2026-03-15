@@ -180,7 +180,7 @@ export default function HomePage() {
               </h2>
               <p className="text-gray-700 md:text-lg dark:text-gray-300">
                 With over 15 years of experience in managing complex infrastructure and construction projects, we bring
-                specialized expertise to your strata committee.
+                specialised expertise to your strata committee.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">

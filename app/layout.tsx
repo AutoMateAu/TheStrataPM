@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Strata PM - Specialized Project Management for Strata Committees",
+  title: "The Strata PM - Specialised Project Management for Strata Committees",
   description: "Expert project management services for strata committees. We provide comprehensive solutions for complex building projects, from initial investigation to final handover.",
   keywords: "strata management, project management, building remediation, waterproofing, strata committees, Sydney",
   viewport: {

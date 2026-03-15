@@ -200,7 +200,7 @@ export default function ContactPage() {
           </div>
           <div className="rounded-lg overflow-hidden border shadow-lg h-[400px] w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26543.48378399498!2d151.2696!3d-33.7969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a9c94e3db8f1%3A0x5017d681632b870!2sManly%20NSW%201655!5e0!3m2!1sen!2sau!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53000!2d151.2500!3d-33.7500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d53e28f12de1b%3A0x1d017d69cf6a2b0!2sNorthern%20Beaches%20Council!5e0!3m2!1sen!2sau!4v1700000000000"
               width="100%"
               height="100%"
               style={{ border: 0 }}
